@@ -1,0 +1,26 @@
+@mixin fullpage {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+header{
+  @include fullpage();
+}
+.contentPage1{
+  @include fullpage();
+  
+}
+.contentPage2{
+  @include fullpage();
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,151,1) 0%, rgba(133,78,252,1) 100%);
+}
+.contentPage3{
+  @include fullpage();
+}
+.contentPage4{
+  @include fullpage();
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,151,1) 0%, rgba(133,78,252,1) 100%);
+}
+footer{
+  @include fullpage();
+}

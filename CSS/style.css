@@ -1,0 +1,34 @@
+header {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.contentPage1 {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.contentPage2 {
+  width: 100vw;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ff0097), to(#854efc));
+  background: linear-gradient(90deg, #020024 0%, #ff0097 0%, #854efc 100%);
+}
+
+.contentPage3 {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.contentPage4 {
+  width: 100vw;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ff0097), to(#854efc));
+  background: linear-gradient(90deg, #020024 0%, #ff0097 0%, #854efc 100%);
+}
+
+footer {
+  width: 100vw;
+  min-height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
