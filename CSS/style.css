@@ -1,6 +1,25 @@
+nav {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  font-size: 40px;
+}
+
+nav .navlist {
+  text-align: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 header {
+  position: relative;
   width: 100vw;
   min-height: 100vh;
+  background: url(../images/meeting-background-1.png);
 }
 
 .contentPage1 {
