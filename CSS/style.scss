@@ -2,13 +2,25 @@
   width: 100vw;
   min-height: 100vh;
 }
-
+nav{
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  a{
+    font-size: 40px;
+  }
+  .navlist{
+    text-align: right;
+    align-items: center;
+  }
+}
 header{
+  position: relative;
   @include fullpage();
+  background: url(../images/meeting-background-1.png);
 }
 .contentPage1{
   @include fullpage();
-  
 }
 .contentPage2{
   @include fullpage();
