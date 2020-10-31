@@ -20,7 +20,14 @@ header{
   background: url(../images/meeting-background-1.png);
 }
 .contentPage1{
+  position: relative;
   @include fullpage();
+  background: url(../images/image4.jpg);
+}
+.heading{
+  @include fullpage();
+  color: aqua;
+  background-color: cornflowerblue;
 }
 .contentPage2{
   @include fullpage();
